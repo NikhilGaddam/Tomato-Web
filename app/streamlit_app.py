@@ -8,7 +8,7 @@ def get_base64_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Step 1: Specify the path to your image
-image_path = str(os.getcwd())+"/Back.jpg"  # Ensure the image is in the same folder as this script or provide a full path
+image_path = str(os.getcwd())+"/app/Back.jpg"  # Ensure the image is in the same folder as this script or provide a full path
 
 # Step 2: Convert the image to base64 format
 base64_image = get_base64_image(image_path)
