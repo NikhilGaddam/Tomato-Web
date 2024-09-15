@@ -25,6 +25,8 @@ class MQL(pydantic.BaseModel):
 # Azure Function setup
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
+
+
 if "OPENAI_API_KEY" not in os.environ:
     openai_api_key = os.environ["API_KEY"]
     os.environ["OPENAI_API_KEY"] = openai_api_key
