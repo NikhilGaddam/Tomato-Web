@@ -26,7 +26,6 @@ class MQL(pydantic.BaseModel):
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
 if "OPENAI_API_KEY" not in os.environ:
-    # openai_api_key="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"
     openai_api_key = os.environ["API_KEY"]
     os.environ["OPENAI_API_KEY"] = openai_api_key
 
