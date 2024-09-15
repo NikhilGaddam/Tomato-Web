@@ -1192,7 +1192,7 @@ def display_messages():
                     st.empty()
 
 def call_api(user_input):
-    api_url = "http://172.29.8.241:7071/api/yourtomato"
+    api_url = "https://vthackstomato.azurewebsites.net/api/yourtomato"
     headers = {
         "Content-Type": "application/json"
     }
