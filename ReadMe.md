@@ -1,5 +1,11 @@
 # HokieEATS
 
+```
+Please make sure to use your own keys in .env file
+```
+
+### You can access the Deployed Project Here: https://hokieeats.study/
+
 ## Inspiration
 Virginia Tech has a student body that very often wants food from different cuisines but has no efficient means to decide on the best restaurant choices. We envisioned a system whereby any student can quickly find a perfect meal based on his or her preferences and diet requirements. This led to the development of HokieEATS, a conversational knowledge-based chatbot with a rather friendly user interface-something very easy for students to find great places to eat around campus.
 
