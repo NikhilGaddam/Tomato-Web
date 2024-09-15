@@ -1,6 +1,7 @@
 import base64
 import streamlit as st
 import os
+import requests
 
 # Function to convert an image file to base64
 def get_base64_image(image_path):
@@ -113,7 +114,7 @@ st.markdown(f"""
 
 
 # Add a custom header
-st.markdown("<div class='custom-header'>Tomato Recommendation System</div>", unsafe_allow_html=True)
+st.markdown("<div class='custom-header'>HokieEATS</div>", unsafe_allow_html=True)
 
 # Initialize session state variables if they don't exist
 if "messages" not in st.session_state:
